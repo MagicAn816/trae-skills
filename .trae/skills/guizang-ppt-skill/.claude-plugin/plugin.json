@@ -1,0 +1,11 @@
+{
+  "name": "guizang-ppt-skill",
+  "description": "Generate horizontal swipe web PPT (single HTML file) with WebGL backgrounds, chapter covers, data billboards, image grids, and more. Two styles: magazine/e-ink (serif + fluid + warm) and Swiss Internationalism (sans-serif + grid + IKB/lemon/lime/orange highlights).",
+  "version": "1.0.0",
+  "author": {
+    "name": "Guizang"
+  },
+  "license": "MIT",
+  "keywords": ["ppt", "presentation", "slides", "deck", "web", "html", "design"],
+  "category": "productivity"
+}

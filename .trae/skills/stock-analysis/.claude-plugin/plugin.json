@@ -1,0 +1,12 @@
+{
+  "name": "stock-analysis",
+  "description": "Generates comprehensive stock analysis reports with data fetching, AI analysis, and HTML visualization. Supports A-share, US stocks, and global tickers.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Trae User"
+  },
+  "homepage": "https://github.com/vercel-labs/agent-browser",
+  "license": "MIT",
+  "keywords": ["stock", "finance", "investment", "analysis", "report"],
+  "category": "finance"
+}

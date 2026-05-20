@@ -1,0 +1,13 @@
+# Analysis report outputs
+*_analysis_report.html
+.trae/skills/*/output/
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+
+# Node
+node_modules/

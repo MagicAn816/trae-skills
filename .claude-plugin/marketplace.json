@@ -1,0 +1,132 @@
+﻿{
+  
+    "name":  "trae-skills-marketplace",
+  
+    "owner":  {
+    
+                  "name":  "Trae User"
+              
+  },
+  
+    "description":  "Local marketplace for Trae AI skills",
+  
+    "metadata":  {
+    
+                     "pluginRoot":  ".trae\\skills"
+                 
+  },
+  
+    "plugins":  [
+    
+                    {
+      
+                        "version":  "1.0.0",
+      
+                        "name":  "agent-browser",
+      
+                        "source":  "./.trae\\skills/agent-browser",
+      
+                        "keywords":  [
+        
+                                         "browser",
+        
+                                         "automation",
+        
+                                         "chrome",
+        
+                                         "cdp",
+        
+                                         "web",
+        
+                                         "screenshot",
+        
+                                         "scraping"
+                                     
+      ],
+      
+                        "description":  "Browser automation CLI for AI agents. Navigate pages,
+       fill forms,
+       click buttons,
+       take screenshots,
+       extract data,
+       test web apps,
+       and automate any browser task.",
+      
+                        "category":  "tools"
+                    
+    },
+    
+                    {
+      
+                        "version":  "1.0.0",
+      
+                        "name":  "guizang-ppt-skill",
+      
+                        "source":  "./.trae\\skills/guizang-ppt-skill",
+      
+                        "keywords":  [
+        
+                                         "ppt",
+        
+                                         "presentation",
+        
+                                         "slides",
+        
+                                         "deck",
+        
+                                         "web",
+        
+                                         "html",
+        
+                                         "design"
+                                     
+      ],
+      
+                        "description":  "Generate horizontal swipe web PPT (single HTML file) with WebGL backgrounds,
+       chapter covers,
+       data billboards,
+       image grids,
+       and more. Two styles: magazine/e-ink (serif + fluid + warm) and Swiss Internationalism (sans-serif + grid + IKB/lemon/lime/orange highlights).",
+      
+                        "category":  "productivity"
+                    
+    },
+    
+                    {
+      
+                        "version":  "1.0.0",
+      
+                        "name":  "stock-analysis",
+      
+                        "source":  "./.trae\\skills/stock-analysis",
+      
+                        "keywords":  [
+        
+                                         "stock",
+        
+                                         "finance",
+        
+                                         "investment",
+        
+                                         "analysis",
+        
+                                         "report"
+                                     
+      ],
+      
+                        "description":  "Generates comprehensive stock analysis reports with data fetching,
+       AI analysis,
+       and HTML visualization. Supports A-share,
+       US stocks,
+       and global tickers.",
+      
+                        "category":  "finance"
+                    
+    }
+                
+  ],
+  
+    "$schema":  "https://code.claude.com/schemas/marketplace.json"
+
+}
+

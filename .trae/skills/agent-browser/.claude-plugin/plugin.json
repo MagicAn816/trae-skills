@@ -1,0 +1,12 @@
+{
+  "name": "agent-browser",
+  "description": "Browser automation CLI for AI agents. Navigate pages, fill forms, click buttons, take screenshots, extract data, test web apps, and automate any browser task.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vercel Labs"
+  },
+  "homepage": "https://github.com/vercel-labs/agent-browser",
+  "license": "Apache-2.0",
+  "keywords": ["browser", "automation", "chrome", "cdp", "web", "screenshot", "scraping"],
+  "category": "tools"
+}
