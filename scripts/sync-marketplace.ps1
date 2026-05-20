@@ -77,5 +77,6 @@ foreach ($ch in $json.ToCharArray()) {
 }
 $prettyJson = $sb.ToString().TrimEnd() + "`n"
 
-Set-Content -Path $marketplacePath -Value $prettyJson -Encoding UTF8
+$utf8NoBom = New-Object System.Text.UTF8Encoding $false
+[System.IO.File]::WriteAllText((Join-Path (Get-Location) $marketplacePath), $prettyJson, $utf8NoBom)
 Write-Host "`n==> marketplace.json updated with $($plugins.Count) plugin(s)" -ForegroundColor Cyan

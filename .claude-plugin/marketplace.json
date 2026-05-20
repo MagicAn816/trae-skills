@@ -1,4 +1,4 @@
-﻿{
+{
   
     "name":  "trae-skills-marketplace",
   
@@ -129,4 +129,3 @@
     "$schema":  "https://code.claude.com/schemas/marketplace.json"
 
 }
-
