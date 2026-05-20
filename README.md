@@ -7,7 +7,7 @@
 在支持 Claude Code plugin 的环境中：
 
 ```bash
-/plugin marketplace add https://github.com/<your-username>/trae-skills.git
+/plugin marketplace add https://github.com/MagicAn816/trae-skills.git
 /plugin install stock-analysis@trae-skills-marketplace
 /plugin install agent-browser@trae-skills-marketplace
 /plugin install guizang-ppt-skill@trae-skills-marketplace
